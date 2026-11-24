@@ -6,7 +6,7 @@ import '../core/storage.dart';
 class Settings {
   const Settings({this.apiKey = '', this.model = defaultModel, this.voiceReplies = true, this.ramadan = false});
 
-  static const defaultModel = 'gemini-flash-latest';
+  static const defaultModel = 'gemini-2.5-flash';
 
   final String apiKey;
   final String model;
